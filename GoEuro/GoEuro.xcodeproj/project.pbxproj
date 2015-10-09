@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49EDC951AD6894243E7B75C4 /* libPods-GoEuro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 073B426983C988D40D1CFE00 /* libPods-GoEuro.a */; };
+		546DEE3A1BC86A770049DABB /* AutoCompleteDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DEE391BC86A770049DABB /* AutoCompleteDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		546DEE3D1BC86D570049DABB /* DEMOCustomAutoCompleteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 546DEE3C1BC86D570049DABB /* DEMOCustomAutoCompleteObject.m */; settings = {ASSET_TAGS = (); }; };
 		546F947E1BC028E500BB3B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546F947D1BC028E500BB3B8C /* main.m */; };
 		546F94811BC028E500BB3B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546F94801BC028E500BB3B8C /* AppDelegate.m */; };
 		546F94841BC028E500BB3B8C /* GoEuro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 546F94821BC028E500BB3B8C /* GoEuro.xcdatamodeld */; };
@@ -15,7 +18,6 @@
 		546F948C1BC028E500BB3B8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546F948B1BC028E500BB3B8C /* Images.xcassets */; };
 		546F948F1BC028E500BB3B8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 546F948D1BC028E500BB3B8C /* LaunchScreen.xib */; };
 		546F949B1BC028E500BB3B8C /* GoEuroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546F949A1BC028E500BB3B8C /* GoEuroTests.m */; };
-		57FE2C957D609346D62B37F4 /* libPods-GoEuro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4E64992103DDDDB570F7D3 /* libPods-GoEuro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073B426983C988D40D1CFE00 /* libPods-GoEuro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoEuro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1330256FED226FA4C0E22E76 /* Pods-GoEuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro.debug.xcconfig"; sourceTree = "<group>"; };
+		546DEE381BC86A770049DABB /* AutoCompleteDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteDataSource.h; sourceTree = "<group>"; };
+		546DEE391BC86A770049DABB /* AutoCompleteDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteDataSource.m; sourceTree = "<group>"; };
+		546DEE3B1BC86D570049DABB /* DEMOCustomAutoCompleteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEMOCustomAutoCompleteObject.h; path = "../../../../Downloads/MLPAutoCompleteTextField-master/MLPAutoCompleteDemo/DEMOCustomAutoCompleteObject.h"; sourceTree = "<group>"; };
+		546DEE3C1BC86D570049DABB /* DEMOCustomAutoCompleteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEMOCustomAutoCompleteObject.m; path = "../../../../Downloads/MLPAutoCompleteTextField-master/MLPAutoCompleteDemo/DEMOCustomAutoCompleteObject.m"; sourceTree = "<group>"; };
 		546F94781BC028E500BB3B8C /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		546F947C1BC028E500BB3B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546F947D1BC028E500BB3B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,7 +52,6 @@
 		546F94991BC028E500BB3B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546F949A1BC028E500BB3B8C /* GoEuroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoEuroTests.m; sourceTree = "<group>"; };
 		8203034F1907E1B93F465FD1 /* Pods-GoEuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro.release.xcconfig"; sourceTree = "<group>"; };
-		AE4E64992103DDDDB570F7D3 /* libPods-GoEuro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoEuro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FE2C957D609346D62B37F4 /* libPods-GoEuro.a in Frameworks */,
+				49EDC951AD6894243E7B75C4 /* libPods-GoEuro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,8 @@
 		546F947A1BC028E500BB3B8C /* GoEuro */ = {
 			isa = PBXGroup;
 			children = (
+				546DEE3B1BC86D570049DABB /* DEMOCustomAutoCompleteObject.h */,
+				546DEE3C1BC86D570049DABB /* DEMOCustomAutoCompleteObject.m */,
 				546F947F1BC028E500BB3B8C /* AppDelegate.h */,
 				546F94801BC028E500BB3B8C /* AppDelegate.m */,
 				546F94851BC028E500BB3B8C /* ViewController.h */,
@@ -99,6 +107,8 @@
 				546F948D1BC028E500BB3B8C /* LaunchScreen.xib */,
 				546F94821BC028E500BB3B8C /* GoEuro.xcdatamodeld */,
 				546F947B1BC028E500BB3B8C /* Supporting Files */,
+				546DEE381BC86A770049DABB /* AutoCompleteDataSource.h */,
+				546DEE391BC86A770049DABB /* AutoCompleteDataSource.m */,
 			);
 			path = GoEuro;
 			sourceTree = "<group>";
@@ -141,7 +151,7 @@
 		E92D5A10F423E9A13B35DBEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE4E64992103DDDDB570F7D3 /* libPods-GoEuro.a */,
+				073B426983C988D40D1CFE00 /* libPods-GoEuro.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,7 +202,7 @@
 		546F94701BC028E500BB3B8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = iahmed16;
 				TargetAttributes = {
 					546F94771BC028E500BB3B8C = {
@@ -283,7 +293,9 @@
 			files = (
 				546F94811BC028E500BB3B8C /* AppDelegate.m in Sources */,
 				546F94841BC028E500BB3B8C /* GoEuro.xcdatamodeld in Sources */,
+				546DEE3D1BC86D570049DABB /* DEMOCustomAutoCompleteObject.m in Sources */,
 				546F94871BC028E500BB3B8C /* ViewController.m in Sources */,
+				546DEE3A1BC86A770049DABB /* AutoCompleteDataSource.m in Sources */,
 				546F947E1BC028E500BB3B8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +358,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -409,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoEuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iahmed16.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -420,6 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoEuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iahmed16.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -438,6 +453,7 @@
 				);
 				INFOPLIST_FILE = GoEuroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iahmed16.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuro.app/GoEuro";
 			};
@@ -453,6 +469,7 @@
 				);
 				INFOPLIST_FILE = GoEuroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iahmed16.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoEuro.app/GoEuro";
 			};
