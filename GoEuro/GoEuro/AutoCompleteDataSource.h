@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "MLPAutoCompleteTextFieldDataSource.h"
+
+#define BASE_URL @"http://api.goeuro.com/api/v2/position/suggest/de/"
+
+
 @interface AutoCompleteDataSource : NSObject <MLPAutoCompleteTextFieldDataSource>
 //Set this to true to return an array of autocomplete objects to the autocomplete textfield instead of strings.
 //The objects returned respond to the MLPAutoCompletionObject protocol.
